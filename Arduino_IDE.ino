@@ -8,7 +8,7 @@ const int relay = 5;
 float nguongDong = 4.0; // Ngưỡng cảnh báo (A)
 
 unsigned long lastPrint = 0;
-const unsigned long printInterval = 4000; // 5 giây
+const unsigned long printInterval = 4000; // 4giây
 
 void setup()
 {
