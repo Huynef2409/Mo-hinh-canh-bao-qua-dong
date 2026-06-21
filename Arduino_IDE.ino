@@ -56,7 +56,7 @@ void loop()
     status = "NORMAL";
   }
 
-  // Chỉ in sau mỗi 5 giây
+  // Chỉ in sau mỗi 4 giây
   if (millis() - lastPrint >= printInterval)
   {
     lastPrint = millis();
